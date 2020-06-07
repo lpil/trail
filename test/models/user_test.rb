@@ -1,8 +1,8 @@
-# typed: strong
+# typed: strict
 require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "the universe" do
+    assert true
+  end
 end
