@@ -17,7 +17,7 @@ class ActiveSupport::TestCase
 end
 
 class ActionDispatch::Routing::Mapper
-  def devise_for(x); end
+  def devise_for(x, opts = {}); end
 end
 
 class ActiveRecord::Base
