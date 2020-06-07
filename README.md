@@ -11,7 +11,7 @@ It uses:
 - Sorbet for static type checking
 - Minitest for tests
 - Fixtures for test data
-- A minimal amount of progressive JavaScript
+- A minimal amount of progressive JavaScript using the Stimulus library
 
 Perhaps unusually, it does not use:
 
@@ -21,5 +21,5 @@ Perhaps unusually, it does not use:
 - Sidekiq (unreliable, the throughput is not needed)
 - Redis (the aim is to write fast code rather than to use caching as a
   band-aid over slow code)
-- Large amounts of front-end code or a framework (slows page load, error
-  prone, expensive to develop for a small team, reduces device compatibility)
+- Large amounts of front-end code (slows page load, error prone, expensive to
+  develop for a small team, reduces device compatibility)
